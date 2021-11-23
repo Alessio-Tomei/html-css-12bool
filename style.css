@@ -1,0 +1,28 @@
+section {
+    margin-bottom: 30px;
+}
+
+div[class*="col-"] {
+    background-color: #006cfa;
+    text-align: center;
+    color: white;
+    border: 1px solid white;
+    min-height: 50px;
+    vertical-align: middle;
+    line-height: 50px;
+}
+
+/* nested lv 1*/
+div[class*="col-"].row {
+    padding: 10px;
+}
+
+div[class*="col-"].row div{
+    background-color: #00e165;
+    border: 1px solid #006cfa;
+}
+/* nested lv 1*/
+
+div.height-2x {
+    min-height: 100px;
+}
